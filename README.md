@@ -36,23 +36,23 @@ Requerimientos necesarios para el funcionamiento:
 
 Requerimientos necesarios para el funcionamiento:
 
-Instale Visual Studio Code para windows [AQUI](https://code.visualstudio.com/download) 
+- Instale Visual Studio Code para windows [AQUI](https://code.visualstudio.com/download) 
   
-Abra VScode e instale pack de python para gestionar los entornos
+- Abra VScode e instale pack de python para gestionar los entornos
 
-Cree un entorno con extension .conda
+- Cree un entorno con extension .conda
 
-Abra el terminal recien creado y ejecute los siguientes comandos:
+- Abra el terminal recien creado y ejecute los siguientes comandos:
 
-  conda create -n tf tensorflow
+      conda create -n tf tensorflow
 
-  conda activate tf
+      conda activate tf
 
-  cd -Direccion de ubicacion del proyecto en su local-
+      cd -Direccion de ubicacion del proyecto en su local-
 
-  pip install -r requirements.txt
+      pip install -r requirements.txt
 
-  python detector_neumonia.py
+      python detector_neumonia.py
 
 #### Uso de la Interfaz Gráfica:
 
@@ -114,9 +114,9 @@ Grad-CAM realiza el cálculo del gradiente de la salida correspondiente a la cla
 
 Para ejecutar las pruebas unitarias, asegúrate de tener las dependencias instaladas, ejecuta el siguiente comando:
 
-  pip install pytest
+    pip install pytest
 
-  pytest
+    pytest
 
 
 ## Pruebas contenedor Docker
@@ -127,15 +127,15 @@ Esta aplicación se estará ejecutando en segundo plano (Verifiquelo desde su ad
 
 Ahora desde su terminal de preferencia ejecute los siguientes comandos:
 
-  git clone https://github.com/santenana/Proyecto_Fracturas
+    git clone https://github.com/santenana/Proyecto_Fracturas
 
-  cd "ubicacion del repositorio clonado"
+    cd "ubicacion del repositorio clonado"
 
-  docker build -t deteccion-lesiones:latest .
+    docker build -t deteccion-lesiones:latest .
 
 Iniciará el proceso de crear la imagen con la informacion requerida. Finalizado el proceso de creacion ejecuta:
 
-  docker run -it -e DISPLAY=host.docker.internal:0.0 deteccion-lesiones python3 detector_lesiones.py
+    docker run -it -e DISPLAY=host.docker.internal:0.0 deteccion-lesiones python3 detector_lesiones.py
 
 "deteccion-neumonia" seria el nombre de la imagen creada, en caso de que la imagen creada tenga otro nombre se debe modificar.
 "detector_neumonia.py" seria el nombre de la app de python, en caso de tenerla con un nombre diferente se debe modificar.
