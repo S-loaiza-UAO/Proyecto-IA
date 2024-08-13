@@ -18,9 +18,9 @@ Realiza los siguientes pasos para empezar a utilizarla:
 
 Requerimientos necesarios para el funcionamiento:
 
--Instale Anaconda para Windows [AQUI](https://docs.anaconda.com/anaconda/install/windows/) y siga las siguientes instrucciones:
+- Instale Anaconda para Windows [AQUI](https://docs.anaconda.com/anaconda/install/windows/) y siga las siguientes instrucciones:
   
--Abra Anaconda Prompt y ejecute los siguientes comandos:
+- Abra Anaconda Prompt y ejecute los siguientes comandos:
 
     conda create -n tf tensorflow
 
