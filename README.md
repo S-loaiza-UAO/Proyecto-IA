@@ -1,4 +1,4 @@
-## 🚀🩺Herramienta de apoyo para el dianóstico rápido de lesiones oseas🦴🧠
+## 🚀🩺Herramienta de apoyo para dianóstico rápido de lesiones oseas🦴🧠
 ### Por: Santiago García Solarte & Santiago Loaiza Cardona
 ### Entrega proyecto final: Desarrollo de proyectos de inteligencia artificial.
 
