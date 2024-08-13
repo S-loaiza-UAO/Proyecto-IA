@@ -14,7 +14,7 @@ Adicional se realiza la aplicación de una técnica de explicación llamada Grad
 ## Uso de la herramienta:
 Realiza los siguientes pasos para empezar a utilizarla:
 
-### Metodo #1: Anaconda Prompt
+#### Metodo #1: Anaconda Prompt
 
 Requerimientos necesarios para el funcionamiento:
 
@@ -32,7 +32,7 @@ Abra Anaconda Prompt y ejecute los siguientes comandos:
 
   python detector_neumonia.py
 
-### Metodo #2: Visual Studio Code
+#### Metodo #2: Visual Studio Code
 
 Requerimientos necesarios para el funcionamiento:
 
@@ -54,7 +54,7 @@ Abra el terminal recien creado y ejecute los siguientes comandos:
 
   python detector_neumonia.py
 
-### Uso de la Interfaz Gráfica:
+#### Uso de la Interfaz Gráfica:
 
 - Ingrese el documento que identifica al paciente en la caja de texto.
 - Presione el botón 'Cargar Imagen', seleccione la imagen desde el explorador de archivos de su computador.
