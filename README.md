@@ -22,15 +22,15 @@ Instale Anaconda para Windows [AQUI](https://docs.anaconda.com/anaconda/install/
   
 Abra Anaconda Prompt y ejecute los siguientes comandos:
 
-  conda create -n tf tensorflow
+    conda create -n tf tensorflow
 
-  conda activate tf
+    conda activate tf
 
-  cd -Direccion de ubicacion del proyecto en su local-
+    cd -Direccion de ubicacion del proyecto en su local-
 
-  pip install -r requirements.txt
+    pip install -r requirements.txt
 
-  python detector_neumonia.py
+    python detector_neumonia.py
 
 #### Metodo #2: Visual Studio Code
 
