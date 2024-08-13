@@ -1,5 +1,5 @@
 ## 🚀🩺🦴 -- Herramienta de apoyo para el dianóstico rápido de lesiones oseas -- 🦴🧠✨
-### Por: Santiago García / Santiago Loaiza
+### Por: Santiago García Solarte & Santiago Loaiza Cardona
 ### Entrega proyecto final: Desarrollo de proyectos de inteligencia artificial.
 
 Deep Learning aplicado en el procesamiento de imágenes radiográficas de extremidades en formato DICOM, utilizando el dataset MURA (consultalo [AQUI](https://stanfordmlgroup.github.io/competitions/mura/)) (Musculoskeletal Radiographs) de Stanford, con el fin de clasificarlas en las siguientes categorías:
@@ -142,6 +142,6 @@ Iniciará el proceso de crear la imagen con la informacion requerida. Finalizado
 En este punto se debe estar ejecutando la aplicación Xming con la interfas grafica de Tkinter y se podra hacer uso del modelo de diagnostico.
 
 ## Desarrollo del Proyecto:
-
 Santiago García Solarte - https://github.com/santenana
+
 Santiago Loaiza Cardona- https://github.com/S-loaiza-UAO
