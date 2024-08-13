@@ -1,13 +1,14 @@
-## 🚀🩺🦴 -- Herramienta de apoyo para el dianóstico rápido de lesiones oseas -- 🦴🧠✨
+## 🚀🩺Herramienta de apoyo para el dianóstico rápido de lesiones oseas🦴🧠
 ### Por: Santiago García Solarte & Santiago Loaiza Cardona
 ### Entrega proyecto final: Desarrollo de proyectos de inteligencia artificial.
 
-Deep Learning aplicado en el procesamiento de imágenes radiográficas de extremidades en formato DICOM, utilizando el dataset MURA (consultalo [AQUI](https://stanfordmlgroup.github.io/competitions/mura/)) (Musculoskeletal Radiographs) de Stanford, con el fin de clasificarlas en las siguientes categorías:
+Deep Learning aplicado en el procesamiento de imágenes radiográficas de extremidades en formato DICOM, utilizando el dataset MURA (Musculoskeletal Radiographs) (consultalo [AQUI](https://stanfordmlgroup.github.io/competitions/mura/)) de Stanford, con el fin de clasificarlas en las siguientes categorías:
 
 - Fractura
 - Sin Fractura
 
 Adicional se realiza la aplicación de una técnica de explicación llamada Grad-CAM para resaltar con un mapa de calor las regiones relevantes de la imagen de entrada.
+
 ---
 
 ## Uso de la herramienta:
