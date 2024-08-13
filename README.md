@@ -142,6 +142,8 @@ Iniciará el proceso de crear la imagen con la informacion requerida. Finalizado
 
 En este punto se debe estar ejecutando la aplicación Xming con la interfas grafica de Tkinter y se podra hacer uso del modelo de diagnostico.
 
+---
+
 ## Desarrollo del Proyecto:
 Santiago García Solarte - https://github.com/santenana
 
